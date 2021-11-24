@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    background-color: bisque;
+    width: 500px;
+    height: 600px;
+    margin: 100px;
+    margin-top: 20px;
+    margin-left: 350px;
+    border-radius: 18px;
+    flex-direction: column;
+}
+.container .result {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 18px;
+    background-color: bisque;
+    margin: 20px;
+    height: 100px;
+}
+.container .result input {
+    margin: 5px;
+    background-color: bisque;
+    border: 0px;
+    direction: rtl;
+}
+.container .result #main {
+    height: 100px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.container .result #sec {
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.container .button {
+    border: solid 1px black;
+    border-radius: 18px;
+    background-color: bisque;
+    margin: 20px;
+    flex: 1;
+    display: flex;
+    justify-items: center;
+}
+.container .button div {
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    flex: 1;
+    margin: 10px;
+}
+.container .button div button {
+    font-weight: bold;
+    background-color: bisque;
+    font-size: 28px;
+    flex: 1;
+    border: solid 1px black;
+    border-radius: 18px;
+    margin: 2px;
+}
+#btnEqual {
+    height: 500px;
+}
+.container .button div button:hover{
+    background-color: rgb(250, 195, 139);
+}
+.container .button div button:active{
+    background-color: rgb(250, 195, 139);
+    color: red;
+    font-size: 36px;
+    border: solid 1px red;
+}
+input:focus {
+    outline: none !important;
+    
+}

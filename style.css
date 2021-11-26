@@ -2,9 +2,8 @@
     display: flex;
     background-color: bisque;
     width: 500px;
-    height: 600px;
+    height: 700px;
     margin: 100px;
-    margin-top: 20px;
     margin-left: 350px;
     border-radius: 18px;
     flex-direction: column;
@@ -17,7 +16,7 @@
     border-radius: 18px;
     background-color: bisque;
     margin: 20px;
-    height: 100px;
+    height: 150px;
 }
 .container .result input {
     margin: 5px;
@@ -75,4 +74,32 @@
 input:focus {
     outline: none !important;
     
+}
+.container .button .operation{
+    background-color: rgb(248, 162, 100);
+}
+.container .button #btnEqual{
+    background-color: rgb(5, 182, 49);
+}
+.container .button #btnDel{
+    background-color: rgb(250, 39, 1);
+}
+.container .button #btnClr{
+    background-color: rgb(250, 39, 1);
+}
+.container .button #btnDel:hover{
+    background-color: rgb(250, 195, 139);
+}
+.container .button #btnClr:hover{
+    background-color: rgb(250, 195, 139);
+}
+.container .button #btnEqual:hover{
+    background-color: rgb(250, 195, 139);
+}
+
+.container .button #btnPercent{
+    background-color: rgb(248, 162, 100);
+}
+.container .button #btnPercent:hover{
+    background-color: rgb(250, 195, 139);
 }

@@ -1,9 +1,11 @@
 .container {
     display: flex;
     background-color: bisque;
-    width: 500px;
-    height: 700px;
+    width: 485px;
+    height: 620px;
     margin: 100px;
+    margin-top: 20px;
+    margin-bottom: 25px;
     margin-left: 350px;
     border-radius: 18px;
     flex-direction: column;
@@ -53,7 +55,7 @@
 .container .button div button {
     font-weight: bold;
     background-color: bisque;
-    font-size: 28px;
+    font-size: 24px;
     flex: 1;
     border: solid 1px black;
     border-radius: 18px;
